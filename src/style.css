@@ -1,0 +1,123 @@
+/* style.css */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 30px;
+  animation: fadeIn 1s ease-in;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  animation: fadeIn 1s ease-in;
+}
+
+input[type='text'] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px 0 0 5px;
+  border: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 0 5px 5px 0;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.user-profile {
+  animation: fadeIn 1s ease-in;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-profile h2 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user-profile img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.user-profile p {
+  color: #777;
+  margin-bottom: 10px;
+}
+
+.repositories {
+  animation: fadeIn 1s ease-in;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.repositories h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.repositories ul {
+  list-style: none;
+  padding: 0;
+}
+
+.repositories li {
+  margin-bottom: 10px;
+  animation: fadeIn 1s ease-in;
+}
+
+.repositories a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease-in;
+}
+
+.repositories a:hover {
+  color: #007bff;
+}
+
+.repositories p {
+  color: #777;
+  margin-bottom: 10px;
+}
